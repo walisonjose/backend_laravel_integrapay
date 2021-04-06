@@ -1,0 +1,17 @@
+[01-May-2020 15:20:41 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:20:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[01-May-2020 15:21:14 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:21:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[01-May-2020 15:21:20 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:21:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[01-May-2020 15:21:38 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:21:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[01-May-2020 15:22:42 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:22:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[01-May-2020 15:22:56 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 14
+[01-May-2020 15:22:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/budmoldigital/public_html/ingoh/laravel/vendor/ramsey/uuid/src/functions.php on line 34
+[26-May-2020 20:47:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'ComposerAutoloaderInit6bda0cf500e9eff62d2b69c45eddc1cd' not found in /home/budmoldigital/public_html/ingoh/laravel/vendor/autoload.php:7
+Stack trace:
+#0 /home/budmoldigital/public_html/ingoh/laravel/public/index.php(24): require()
+#1 {main}
+  thrown in /home/budmoldigital/public_html/ingoh/laravel/vendor/autoload.php on line 7

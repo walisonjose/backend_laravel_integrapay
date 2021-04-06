@@ -1,0 +1,45 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateRequestBloodTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('request_blood', function (Blueprint $table) {
+            $table->id();
+
+            $table->integer('id_patient')->unsigned();
+            $table->integer('id_clinical _indication')->unsigned();
+            $table->integer('id_ request_blood_exams')->unsigned();
+            $table->integer('id_type_transfusion')->unsigned();
+
+            $table->foreign('id_request_blood')
+                ->references('id')->on('request_blood')
+                ->onDelete('cascade');
+
+            $table->foreign('id_procedures')
+                ->references('id')->on('procedures')
+                ->onDelete('cascade');
+
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('request_blood');
+    }
+}
